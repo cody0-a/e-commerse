@@ -31,6 +31,9 @@
         <p class="mt-4 text-center text-sm">
             Don't have an account? <a href="{% url 'account:register'%}" class="text-blue-600">Sign up</a>
         </p>
+        <div>
+            forgot Password? <a href="{% url 'account:reset_password'%}" class="text-blue-600">Reset Password</a>
+        </div>
     </div>
     <script>
         const show_btn = document.getElementById('show_btn');
